@@ -16,14 +16,32 @@ body {
   justify-content: center;
 }
 
-.container .title {
+.container .title,
+.esperando {
   font-size: 35px;
   color: white;
+  text-align: center;
+}
+.esperando {
+  font-size: 25px;
+  margin-top: 10px;
 }
 
 .container .buttons {
   margin-top: 50px;
   margin-left: -130px;
+}
+.container #pato {
+  margin-top: 100px;
+  justify-content: center;
+  display: none;
+  flex-flow: column;
+}
+
+#pato img {
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
 }
 
 .container .buttons .btn {

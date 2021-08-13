@@ -1,3 +1,9 @@
+window.onload = function () {
+  setTimeout(function () {
+    var pato = document.getElementById("pato");
+    pato.style.display = "flex";
+  }, 5000);
+};
 var btnno = document.getElementById("btnno");
 var btnyes = document.getElementById("btnyes");
 
@@ -19,6 +25,9 @@ var coordenadas = () => {
 btnyes.addEventListener("click", () => {
   if (confirm("Ya sabia que querias ser mi novia jeje :) Te amo ")) {
     var message = "Acepto Bebito Peshosho.";
-    window.open("https://wa.me/5491158559679/?text=" + encodeURI(message), "_blank");
+    window.open(
+      "https://wa.me/5491158559679/?text=" + encodeURI(message),
+      "_blank"
+    );
   }
 });
